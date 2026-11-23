@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ca.superroute",
+    "module": "sindoor-map",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "ca.superroute",
+          "module": "sindoor",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "ca.superroute",
+          "module": "smap",
+          "version": {
+            "requires": "1.6.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sindoor-map-0.1.0.aar",
+          "url": "sindoor-map-0.1.0.aar",
+          "size": 31021,
+          "sha512": "6ba87e400511de9d37cc2e2d5f029f896759fcb7b6f87383e6e03cfa9c0f32633d2dcc505a5bfe45d50eb5f3199a1a1ffa4a512d6e6babf5fba7215e1ff6fe8e",
+          "sha256": "575d90521c4b82b321a28f1f2ca19b6249c73f086e686ff04e3995d4885621bb",
+          "sha1": "b1cc18a717fe89bcf9043e34275e68851883e10d",
+          "md5": "33d57f16dd93386518d9b335d35c3c0e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "ca.superroute",
+          "module": "sindoor",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "ca.superroute",
+          "module": "smap",
+          "version": {
+            "requires": "1.6.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sindoor-map-0.1.0.aar",
+          "url": "sindoor-map-0.1.0.aar",
+          "size": 31021,
+          "sha512": "6ba87e400511de9d37cc2e2d5f029f896759fcb7b6f87383e6e03cfa9c0f32633d2dcc505a5bfe45d50eb5f3199a1a1ffa4a512d6e6babf5fba7215e1ff6fe8e",
+          "sha256": "575d90521c4b82b321a28f1f2ca19b6249c73f086e686ff04e3995d4885621bb",
+          "sha1": "b1cc18a717fe89bcf9043e34275e68851883e10d",
+          "md5": "33d57f16dd93386518d9b335d35c3c0e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sindoor-map-0.1.0-sources.jar",
+          "url": "sindoor-map-0.1.0-sources.jar",
+          "size": 7019,
+          "sha512": "5435bcaa03eee0f87fd5e5c7facd44536d92eebbe40c3277120f2319678366b7fb2594ef4ce028d9a30e64fb06ebde5067c5036c7ec2927355c38db66f6df323",
+          "sha256": "bc37c2006d00800500d1b4852d24f93fd872da76e917dbdb4b5f38f6503cd23d",
+          "sha1": "8ebb94cff856933d8c644ca4fdeea442a0bf4089",
+          "md5": "5a992bfdec91a20702f03ce879037409"
+        }
+      ]
+    }
+  ]
+}
