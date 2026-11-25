@@ -1,5 +1,11 @@
 # sIndoor SDK
 
+## 0.1.1
+
+- The engine of sIndoor 0.2.11: routes on the device keep the rules of zones for their movement profile (closed, no
+  through traffic, slow), as routes of the platform do. 0.1.0 ignored them.
+- Positioning weighs learned cells by their readings, as on the server.
+
 ## 0.1.0
 
 - First release: indoor routes, tours and positioning on the device (offline once a site is downloaded), the Open

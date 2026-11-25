@@ -16,8 +16,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SindoorFFI",
-            url: "https://github.com/Goodneo-Solutions/sindoor-releases/releases/download/0.1.0/SindoorFFI.xcframework.zip",
-            checksum: "fea128aeace94f0bb276357be25ca186c7b3fa65757982bab2f72142c9906e5b"
+            url: "https://github.com/Goodneo-Solutions/sindoor-releases/releases/download/0.1.1/SindoorFFI.xcframework.zip",
+            checksum: "9179981674c873cfcff5cf6426dbc20a9c6d31cf08380b8e5c7384a15df0fc82"
         ),
         .target(
             name: "SIndoor",

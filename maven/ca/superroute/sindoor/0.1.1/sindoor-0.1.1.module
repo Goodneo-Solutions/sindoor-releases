@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ca.superroute",
+    "module": "sindoor",
+    "version": "0.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common",
+          "version": {
+            "requires": "2.8.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sindoor-0.1.1.aar",
+          "url": "sindoor-0.1.1.aar",
+          "size": 3391810,
+          "sha512": "23338715ff1710be725b2954bf10af9aaa857791b0eb6148c1be745f3b4d03901f61605126821571548bd5a8bc19ee8786499aea34fe3ce818c29d09eb684f13",
+          "sha256": "07571eebcbaa9b81c5af000e1f0b8af35026b62978fa0b77283286dbe42ce8e4",
+          "sha1": "ef08f755072eaf63ebb6d471c1e9eb11db121b62",
+          "md5": "e5e7c1d787853489f09ee60934d37894"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common",
+          "version": {
+            "requires": "2.8.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sindoor-0.1.1.aar",
+          "url": "sindoor-0.1.1.aar",
+          "size": 3391810,
+          "sha512": "23338715ff1710be725b2954bf10af9aaa857791b0eb6148c1be745f3b4d03901f61605126821571548bd5a8bc19ee8786499aea34fe3ce818c29d09eb684f13",
+          "sha256": "07571eebcbaa9b81c5af000e1f0b8af35026b62978fa0b77283286dbe42ce8e4",
+          "sha1": "ef08f755072eaf63ebb6d471c1e9eb11db121b62",
+          "md5": "e5e7c1d787853489f09ee60934d37894"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sindoor-0.1.1-sources.jar",
+          "url": "sindoor-0.1.1-sources.jar",
+          "size": 18906,
+          "sha512": "5c6632e2329611ef830d50b56736e4767425d435bcbaa8386c6de2d69d862612131cb1cbaa544dd8c6aeb2dae5381f55715d27fa9dc102aa9932c5e4da3a9a1c",
+          "sha256": "a18a3154aecfddc1073e8bd6f6cea69df5731a1a7b4317a8947bb2d5eadf37f4",
+          "sha1": "1496ca2a1bb93981c261a3d855697158fd14efc2",
+          "md5": "d7c2f63af26b93f35de852086925eace"
+        }
+      ]
+    }
+  ]
+}
